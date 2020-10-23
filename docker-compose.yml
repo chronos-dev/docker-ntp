@@ -13,4 +13,4 @@ services:
       - SYS_RESOURCE
       - SYS_TIME
     environment:
-      - NTP_SERVERS=time.cloudflare.com
+      - NTP_SERVERS="a.st1.ntp.br,b.st1.ntp.br,c.st1.ntp.br,a.ntp.br,b.ntp.br,c.ntp.br"
